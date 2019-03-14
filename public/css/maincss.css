@@ -1,0 +1,45 @@
+#navBrand {
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 3.5rem;
+}
+
+.navList {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 .75rem;
+}
+
+#myNavbar {
+    background-color: #1f1f14;
+    height: 10%
+}
+
+.noUnderlineHover:hover {
+    text-decoration: none;
+}
+
+#background {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    background-image: url("../images/backgroundimage.jpeg")
+}
+
+#landingWelcome {
+    font-family: 'Arimo', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#mainContent {
+    height: 90%;
+}
