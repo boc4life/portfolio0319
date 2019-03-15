@@ -6,31 +6,41 @@
         <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Nunito|Righteous" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
         <link rel="stylesheet" href="..\css\maincss.css">
+        <link rel="stylesheet" href="..\css\homecss.css">
     </head>
     <body>
         <div id="background"></div>
-        <nav class="navbar navbar-expand-lg navbar-dark" id="myNavbar">
-            <a class="navbar-brand" href="index.html" id="navBrand">AF</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarList">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarList">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link navList" href="about.html">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navList" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navList" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <a class="nav-link" href="#"><img src="../images/linkedin.png"></a>
-        </nav>
-
+        <div id="navContainer" class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark" id="myNavbar">
+                <a class="navbar-brand" href="/" id="navBrand">AF</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarList">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarList">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link navList" href="/about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navList" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navList" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <a class="nav-link" href="#"><img src="../images/linkedin.png"></a>
+                </div>
+            </nav>
+        </div>
+        <div id="mainContent" class="container-fluid d-flex flex-column align-items-center justify-content-center">
+            <span class="align-middle">Andrew Finkernagel</span><br>
+            <span class="align-middle">Aspiring Web and Software Developer</span><br>
+            <a href="portfolio.html">
+                <div class="animated infinite pulse delay-5s" id="portfolioBox">View My Featured Projects</div>
+            </a>
+        </div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

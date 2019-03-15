@@ -1,0 +1,27 @@
+#mainContent {
+    height: 600px;
+    font-family: 'Arimo', sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#portfolioBox {
+    border: .1rem solid white;
+    text-align: center;
+    height: 125px;
+    width: 275px;
+    font-size: 1.25rem;
+    color: white;
+    line-height: 125px;
+    font-weight:500;
+    background-color: #1f1f14;
+}
+
+#portfolioBox:hover {
+    background-color: transparent;
+}
+
+a:hover {
+    text-decoration: none;
+}

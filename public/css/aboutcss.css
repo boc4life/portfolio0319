@@ -1,0 +1,32 @@
+#head-jumbotron {
+    margin-top: 1rem;
+    background-color: #4280a5;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 550;
+    line-height: 2
+}
+
+#techs-jumbotron {
+    margin-top: 1rem;
+    background-color: #076628;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 550;
+    line-height: 2;
+}
+
+#practiced-jumbotron {
+    margin-top: 1rem;
+    background-color: #a0620b;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 550;
+    line-height: 2;
+}
+#headshot {
+    margin-right: 1.55rem;
+}

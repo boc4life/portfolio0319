@@ -1,3 +1,7 @@
+#navContainer {
+    padding: 0
+}
+
 #navBrand {
     font-family: 'Righteous', cursive;
     color: white;
@@ -13,7 +17,6 @@
 
 #myNavbar {
     background-color: #1f1f14;
-    height: 10%
 }
 
 .noUnderlineHover:hover {
@@ -32,14 +35,4 @@
     background-size: cover;
     z-index: -1;
     background-image: url("../images/backgroundimage.jpeg")
-}
-
-#landingWelcome {
-    font-family: 'Arimo', sans-serif;
-    color: white;
-    text-align: center;
-}
-
-#mainContent {
-    height: 90%;
 }
