@@ -19,6 +19,9 @@
   "homepage": "https://github.com/boc4life/portfolio0319#readme",
   "dependencies": {
     "animate.css": "^3.7.0",
-    "express": "^4.16.4"
+    "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "nodemailer": "^5.1.1"
   }
 }
