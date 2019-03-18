@@ -1,16 +1,18 @@
 #head-jumbotron {
-    margin-top: 1rem;
+    margin: 1rem 1rem 0 1rem;
     background-color: #4280a5;
     color: white;
     font-family: 'Muli', sans-serif;
     font-size: 1.5rem;
     font-weight: 550;
-    line-height: 2
+    line-height: 2;
+    padding: .5rem;
 }
 
 #techs-jumbotron {
     margin-top: 1rem;
-    background-color: #076628;
+    padding-top: .5;
+    background-color: #033a0b;
     color: white;
     font-family: 'Muli', sans-serif;
     font-size: 1.5rem;
@@ -20,6 +22,7 @@
 
 #practiced-jumbotron {
     margin-top: 1rem;
+    padding-top: .5;
     background-color: #a0620b;
     color: white;
     font-family: 'Muli', sans-serif;
@@ -27,6 +30,8 @@
     font-weight: 550;
     line-height: 2;
 }
-#headshot {
-    margin-right: 1.55rem;
+
+.listHead {
+    font-size: 32px;
+    font-weight: 700
 }

@@ -1,0 +1,13 @@
+#mainContent {
+    height: 600px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.portfolioCard {
+    height: 450px;
+    width: 300px;
+    font-size: 16px;
+    background-color: #414042;
+    color: white;
+    margin: 1rem;
+}

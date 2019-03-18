@@ -6,10 +6,10 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Nunito|Righteous" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
         <link rel="stylesheet" href="..\css\main.css">
-        <link rel="stylesheet" href="..\css\home.css">
+        <link rel="stylesheet" href="..\css\portfolio.css">
     </head>
     <body>
         <div id="background"></div>
@@ -35,12 +35,25 @@
                 </div>
             </nav>
         </div>
-        <div id="mainContent" class="container-fluid d-flex flex-column align-items-center justify-content-center">
-            <span class="align-middle animated zoomIn">Andrew Finkernagel</span><br>
-            <span class="align-middle animated zoomIn">Aspiring Web and Software Developer</span><br>
-            <a href="/portfolio">
-                <div class="animated infinite pulse slower" id="portfolioBox">View My Featured Projects</div>
-            </a>
+        <div id="mainContent" class="container d-flex flex-wrap justify-content-center align-items-center">
+            <div class="card portfolioCard">
+                <img class="card-img-top" src="../images/infocitiesthumb.png">
+                <div class="card-body text-center">
+                    <h5 class="card-title">InfoCities</h5>
+                    <p class="card-text">The beginning framework of a social media website utilizing Firebase for user data storage. Data storage handled through Firebase.</p>
+                    <a href="https://github.com/boc4life/ProjectOne" class="btn btn-secondary">Github</a>
+                    <a href="https://boc4life.github.io/ProjectOne" class="btn btn-secondary">Deployed</a>
+                </div>
+            </div>
+            <div class="card portfolioCard">
+                <img class="card-img-top" src="../images/infocitiesthumb.png">
+                <div class="card-body text-center">
+                    <h5 class="card-title">PizzaLovers</h5>
+                    <p class="card-text">An Inventory Management/POS System for a hypothetical pizza restaurant. Features SQL database with associations + numerous charts and graphs for data visualization.</p>
+                    <a href="https://github.com/boc4life/restaurant-manager" class="btn btn-secondary">Github</a>
+                    <a href="https://obscure-beach-56866.herokuapp.com/" class="btn btn-secondary">Deployed</a>
+                </div>
+            </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
