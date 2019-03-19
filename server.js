@@ -2,7 +2,6 @@ const express = require("express");
 require("dotenv").config();
 
 const app = express();
-const nodemailer = require("nodemailer");
 const bodyParser = require("body-parser");
 let PORT = process.env.PORT || 3000;
 
