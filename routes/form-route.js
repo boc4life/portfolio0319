@@ -3,7 +3,6 @@ let nodemailer = require("nodemailer")
 module.exports = function(app) {
 
     app.post("/contact", function(req, res){
-        console.log(process.env.GMAIL_USER)
         let smtpTrans = nodemailer.createTransport({
             host: "smtp.gmail.com",
             port: 465,

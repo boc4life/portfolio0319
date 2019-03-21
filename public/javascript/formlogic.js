@@ -10,7 +10,6 @@ $("#contactForm").on("submit", function(event){
             email: email,
             message: message
         }
-        console.log(data)
         $.post("/contact", data, function(res){
         })
     }
