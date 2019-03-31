@@ -13,6 +13,9 @@ $("#contactForm").on("submit", function(event){
         $.post("/contact", data, function(res){
         })
     }
+    else {
+        alert("Valid return Email address please")
+    }
 })
 
 function emailIsValid (email) {
